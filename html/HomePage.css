@@ -1,0 +1,15 @@
+body {
+	margin: 0;
+	min-width: 250px;
+	background-color: #FFFFFF;
+}
+/*Include padding and border in all elements*/
+* {
+	box-sizing: border-box;
+}
+
+/*remove margins and padding from list */
+ul {
+	margin: 0;
+	padding: 0;
+}
