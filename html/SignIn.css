@@ -1,0 +1,47 @@
+body {
+	margin: 0;
+	min-width: 150px;
+	background-color: #FFFFFF;
+}
+
+ * {
+	box-sizing: border-box;
+}
+
+/*header styling*/
+header {
+	position: absolute;
+	top:12px;
+	right:30px;
+}
+
+header a:link, a:visited, a:active {
+    color: #2a2a2a;
+    font-family: arial, sans-serif;
+    font-size:12px;
+    text-decoration:none;
+	margin-right:5px;
+	margin-left:5px;
+	position:relative;
+	top:-10px;
+}
+
+header {
+	text-decoration:underline;
+}
+
+/*form styling*/
+.container {
+	position: relative;
+	background: white;
+	font-size: 12px;
+	padding: 12px 8px 12px 40px;
+}
+
+.LowerContainer {
+	position: relative;
+	background: white;
+	font-size: 12px;
+	padding: 12px 8px 12px 40px;
+}
+

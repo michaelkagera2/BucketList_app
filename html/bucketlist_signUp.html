@@ -3,11 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 	<title>My Bucketlist Sign Up page</title>
-	<link rel="stylesheet" type="text/css" href=>
+	<link rel="stylesheet" type="text/css" href="SignUp.css">
 </head>
 <body>
 	<header>
-		<a href="">sign in</a>
+		<a href="BucketList_SignIn.html">sign in</a>
 		<a href="">My Bucketlist</a>
 	</header>
 	<form name="BucketList_SignUp" action="#" method="POST"><br>
@@ -15,6 +15,7 @@
 		<img src="">
 	</div>
 	<div class="container">
+		<div class="textbox">
 		 <label><b>Fisrt Name</b></label>
 		 <input type="TEXT" name="FIrstNAME" placeholder="Enter First Name" size="20"><br>
 		 <label><b>Last Name</b></label>
@@ -24,9 +25,13 @@
 		 <label><b>User Name</b></label>
 		 <input type="TEXT" name="UserNAME" placeholder="Enter User Name" size="25" required><br>
 		 <label><b>Password</b></label>
-		 <input type="password" name="psw" placeholder="Enter Your Password" size=25 required><br>
-		 <FIELDSET<LEGEND><STRONG>gender</STRONG></LEGEND>>
-		 	<TABLE BORDER="1" CELLSPACING="0" CELLPADDING="5">
+		 <input type="password" name="psw" id="password" placeholder="Enter Your Password" size=25 required>
+		 <button type="button" id="eye" onclick="if(password.type=='text')password.type=='password'; else password.type='text';">
+		 	show/hide password
+		 </button><br>
+		</div> 
+		 <FIELDSET><LEGEND><STRONG>gender</STRONG></LEGEND>>
+		 	<TABLE BORDER="0.5" CELLSPACING="0" CELLPADDING="5">
 		 		<TR><TD>
 		 			<LABEL><INPUT TYPE="RADIO" NAME="GENDER" CHECKED 
 		 				VALUE="Unspecified">Unspecified</LABEL>

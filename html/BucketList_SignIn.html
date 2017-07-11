@@ -7,22 +7,25 @@
 </head>
 <body>
 	<header>
-		<a href="">Bucketlist_SignIn</a>
-		<a href="">My Bucketlist</a>
+		<a href="BucketList_SignUp.html">SignUp</a>
+		<a href="#">My Bucketlist</a>
 	</header>
 	<form name="BucketList_SignUp" action="#" method="POST"><br>
 		<div class="imgcontainer">
-			<img src="">
+			<img src="#">
 		</div>
 		<div class="container">
 			<label><b>Username or Email</b></label>
 			<INPUT type="text" name="Username"/"email" placeholder="Enter Username or email" required><br>
 			<label><b>Password</b></label>
-			<Input type="password" name="psw" placeholder="Enter Password" required><br>
+			<Input type="password" name="psw" id="password" placeholder="Enter Password" required>
+			<BUTTON type="button" id="eye" onclick="if(password.type === 'text')password.type='password'; else password.type='text';">
+				Show/Hide password
+			</BUTTON><br>
 			<BUTTON type="submit">Login</BUTTON><br>
 			<INPUT type="checkbox" checked="checked"> Remember me
 		</div>
-		<div class="container" style="background-color:#f1f1f1">
+		<div class="LowerContainer" style="background-color:#f1f1f1">
 			<button type="button" class="cancelbtn">Cancel</button>
 			<span class="psw">Forgot<a href="#">password?</a></span>
 		</div>
