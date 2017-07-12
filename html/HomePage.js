@@ -21,12 +21,7 @@ for(i = 0; i < close.length; i ++) {
 }
 
 //check list item on click
-var list = document.querySelector('ul');
-list.addEventListener('click', function(ev) {
-	if (ev.target.tagName === 'li') {
-		ev.target.classList.toggle('checked');
-	}
-}, false);
+
 
 //create new task
 function newTask() {
